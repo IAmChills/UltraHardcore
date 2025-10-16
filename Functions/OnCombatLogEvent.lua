@@ -105,6 +105,11 @@ function OnCombatLogEvent(self, event)
 
     local currentEnemies = CharacterStats:GetStat('enemiesSlain') or 0
     CharacterStats:UpdateStat('enemiesSlain', currentEnemies + 1)
+
+    if FourCandle_OnPartyKill(destGUID) then
+      -- Do something when this is completed
+      print("Congratualations, you completed the four candle achievement!")
+    end
   end
 
   -- Dazed!
