@@ -73,6 +73,8 @@ Functions/Overlays/ShowArcaneDamageOverTimeOverlay.lua
 Functions/Overlays/ShowFireDamageOverlay.lua
 Functions/Overlays/ShowFireDamageOverTimeOverlay.lua
 
+Functions/Achievements/FourCandleTracker.lua
+
 Settings/Settings.lua
 Settings/MainMenuButton.lua
 Settings/XFoundMode.lua
